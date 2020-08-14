@@ -1,4 +1,4 @@
-package com.example.alvaro.carteraclientes.BaseDatos;
+package com.example.shyndell.carteraclientes.BaseDatos;
 
 import android.provider.BaseColumns;
 

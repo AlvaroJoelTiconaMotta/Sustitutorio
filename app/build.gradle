@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.alvaro.carteraclientes"
+        applicationId "com.example.shyndell.carteraclientes"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1

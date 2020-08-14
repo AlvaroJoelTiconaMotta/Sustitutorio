@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,13 +9,6 @@
     tools:context=".ActMostrarCliente"
     tools:showIn="@layout/act_mostrar_cliente"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/EBuscar"
@@ -25,81 +18,63 @@
         android:hint="Ingrese el nombre del cliente"
         android:selectAllOnFocus="true"
         android:singleLine="true"
-        android:textColor="#FF5722"
+        android:textColor="#0D1D8E"
         android:textColorHighlight="#9C27B0"
-        android:textColorHint="#6230BC"
+        android:textColorHint="#0D1D8E"
         android:typeface="serif"
         android:verticalScrollbarPosition="defaultPosition"
         android:visibility="visible" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Nombre: "/>
-
     <TextView
         android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="-20dp"
-        />/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Direccion: "/>
+        android:layout_marginTop="50dp"
+        android:text="Nombre"/>
+
     <TextView
         android:id="@+id/direccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="-20dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Email: "/>
+        android:text="Direccion"
+        android:layout_marginTop="70dp"/>
+
     <TextView
         android:id="@+id/email"
+        android:text="Email "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="-20dp"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Telefono: "/>
+        android:layout_marginTop="90dp"/>
+
     <TextView
         android:id="@+id/telefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="-20dp"/>
-
-    <Button
-        android:id="@+id/BBuscar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#F18B8B"
-        android:bufferType="normal"
-        android:text="Buscar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#BEFFED4D"
-        android:textColorHighlight="#FF5722"
-        android:textColorHint="#FF5722"
-        android:layout_marginTop="20dp"/>
+        android:text="Telefono"
+        android:layout_marginTop="110dp"/>
 
     <Button
         android:id="@+id/BEliminar"
-        android:layout_width="match_parent"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
-        android:background="#AED8B0"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="210dp"
+        android:background="#FFFFFF"
         android:text="Eliminar"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#8A520A" />
+        android:textColor="#BE020200" />
 
-</LinearLayout>
+
+    <Button
+        android:id="@+id/BBuscar"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="210dp"
+        android:background="#FFFFFF"
+        android:bufferType="normal"
+        android:text="Buscar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#BE020200"
+        android:textColorHighlight="#FF5722"
+        android:textColorHint="#FF5722" />
+</RelativeLayout>

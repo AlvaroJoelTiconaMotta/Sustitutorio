@@ -1,4 +1,4 @@
-package com.example.alvaro.carteraclientes;
+package com.example.shyndell.carteraclientes;
 
 import org.junit.Test;
 

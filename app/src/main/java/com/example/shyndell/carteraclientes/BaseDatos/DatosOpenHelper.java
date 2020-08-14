@@ -1,4 +1,4 @@
-package com.example.alvaro.carteraclientes.BaseDatos;
+package com.example.shyndell.carteraclientes.BaseDatos;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 
-import com.example.alvaro.carteraclientes.ActMostrarCliente;
+import com.example.shyndell.carteraclientes.ActMostrarCliente;
 
-import com.example.alvaro.carteraclientes.BaseDatos.DataBase;
+import com.example.shyndell.carteraclientes.BaseDatos.DataBase;
 import androidx.annotation.Nullable;
 
 public class DatosOpenHelper extends SQLiteOpenHelper{

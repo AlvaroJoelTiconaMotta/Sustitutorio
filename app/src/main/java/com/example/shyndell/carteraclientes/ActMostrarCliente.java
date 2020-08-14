@@ -1,8 +1,8 @@
-package com.example.alvaro.carteraclientes;
+package com.example.shyndell.carteraclientes;
 
 import android.os.Bundle;
 
-import com.example.alvaro.carteraclientes.BaseDatos.DatosOpenHelper;
+import com.example.shyndell.carteraclientes.BaseDatos.DatosOpenHelper;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
